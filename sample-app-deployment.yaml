@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: sample-app
-        image: 049913821323.dkr.ecr.us-east-1.amazonaws.com/sample-app:v1   # replace with your repo/image
+        image: 339713044130.dkr.ecr.us-east-1.amazonaws.com/sample-app:v1   # replace with your repo/image
         ports:
         - containerPort: 80

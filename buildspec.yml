@@ -16,7 +16,7 @@ phases:
   post_build:
     commands:
       - echo Deploying to EKS...
-      - aws eks update-kubeconfig --name eksdemo --region $AWS_DEFAULT_REGION
+      - aws eks update-kubeconfig --name eksdemo1 --region $AWS_DEFAULT_REGION
       - kubectl apply -f sample-app-service.yaml #line added
       - kubectl set image deployment/sample-app-deployment sample-app=$ECR_URI:$IMAGE_TAG --record
       - kubectl rollout status deployment/sample-app-deployment
