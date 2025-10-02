@@ -16,4 +16,3 @@ EXPOSE 80
 
 # Run with Uvicorn
 CMD ["uvicorn", "Bilstm_api:app", "--host", "0.0.0.0", "--port", "80"]
-#CMD ["uvicorn", "Bilstm_api:app", "--host", "localhost", "--port", "8000"]
