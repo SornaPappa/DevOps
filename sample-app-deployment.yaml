@@ -18,4 +18,4 @@ spec:
       - name: sample-app
         image: 339713044130.dkr.ecr.us-east-1.amazonaws.com/sample-app:v1   # replace with your repo/image
         ports:
-        - containerPort: 8000
+        - containerPort: 80
